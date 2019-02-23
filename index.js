@@ -1,6 +1,6 @@
 
 
-takeANumber(que, name) {
+function takeANumber(que, name) {
   var n;
   que.push(name);
   n = que.length;
