@@ -23,7 +23,7 @@ function currentLine(que) {
   var s = "The line is currently: ";
   for (var i = 0; i<que.length; ++i) {
     if (i) s += ',';
-    s += i + ' ' + que[i];
+    s += (i+1) + ' ' + que[i];
   }
   return s;
 }
