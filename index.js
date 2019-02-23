@@ -15,3 +15,15 @@ function nowServing(que) {
   que.shift();
   return "Currently serving " + s + ".";
 }
+
+function currentLine(que) {
+  if (que.length === 0) {
+    return "The line is currently empty.";
+  }
+  var s = "The line is currently: ";
+  for (int i = 0; i<que.length; ++i) {
+    if (i) s += ',';
+    s += i + ' ' + que[i];
+  }
+  return s;  
+}
