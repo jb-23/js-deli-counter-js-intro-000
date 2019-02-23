@@ -13,5 +13,5 @@ function nowServing(que) {
   }
   var s = que[0];
   que.shift();
-  return s;
+  return "Currently serving " + s + ".";
 }
