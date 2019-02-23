@@ -25,5 +25,5 @@ function currentLine(que) {
     if (i) s += ',';
     s += i + ' ' + que[i];
   }
-  return s;  
+  return s;
 }
