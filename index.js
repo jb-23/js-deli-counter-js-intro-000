@@ -21,7 +21,7 @@ function currentLine(que) {
     return "The line is currently empty.";
   }
   var s = "The line is currently: ";
-  for (int i = 0; i<que.length; ++i) {
+  for (var i = 0; i<que.length; ++i) {
     if (i) s += ',';
     s += i + ' ' + que[i];
   }
